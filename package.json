@@ -1,0 +1,24 @@
+{
+  "name": "SingleFileApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite -c app.config.ts"
+  },
+  "dependencies": {
+    "solid-js": "1.9.9",
+    "unocss": "^66.4.2",
+    "vite-plugin-purgecss": "^0.2.13"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.20",
+    "@types/rollup": "0.54.0",
+    "@unocss/preset-attributify": "^66.4.2",
+    "sass-embedded": "^1.90.0",
+    "typescript": "^5.5.3",
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.6"
+  },
+  "private": true
+}
